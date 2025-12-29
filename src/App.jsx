@@ -5,7 +5,7 @@ import './App.css'
 function App() {
     const [weather,setWeather]=useState({});
     const[city,setCity]=useState("");
-    let URL="https://api.weatherapi.com/v1/current.json?key=c3651a3d96984ebb8ba145919252912&q="
+    let URL="https://api.weatherapi.com/v1/current.json?key={}&q="
     const fetchWeather=async(city)=>{
       try {
         let upURL = URL + city;
